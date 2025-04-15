@@ -1,6 +1,6 @@
 # IT Helpdesk Dashboard Analysis
 
-This repository contains an IT Helpdesk Dashboard analysis focused on identifying operational inefficiencies within an IT ticketing system and proposing actionable solutions. The dataset comprises approximately 97,000 rows of IT tickets, detailing various issues and their attributes. Here's the link to the interactive Power BI Dashboard [Link]( )
+This repository contains an IT Helpdesk Dashboard analysis focused on identifying operational inefficiencies within an IT ticketing system and proposing actionable solutions. The dataset comprises approximately 97,000 rows of IT tickets, detailing various issues and their attributes. Here's the link to the interactive Power BI Dashboard [Link](https://app.powerbi.com/view?r=eyJrIjoiZThhZTkxZWUtOTA3ZC00YzhiLThiMTAtMDJmMzc5M2ZjOTFjIiwidCI6IjAzNWEyYzY4LTc2YjQtNGViYS1hMTVhLWNiYmNhOTY4NjhjZCJ9)
 
 Context:
 The IT manager tasked me with analyzing the ticketing system to uncover inefficiencies, with the goal of reducing resolution times, enhancing customer satisfaction, and improving overall service quality.
