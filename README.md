@@ -2,22 +2,24 @@
 
 This repository contains an IT Helpdesk Dashboard analysis focused on identifying operational inefficiencies within an IT ticketing system and proposing actionable solutions. The dataset comprises approximately 97,000 rows of IT tickets, detailing various issues and their attributes. Here's the link to the interactive Power BI Dashboard [Link](https://app.powerbi.com/view?r=eyJrIjoiZThhZTkxZWUtOTA3ZC00YzhiLThiMTAtMDJmMzc5M2ZjOTFjIiwidCI6IjAzNWEyYzY4LTc2YjQtNGViYS1hMTVhLWNiYmNhOTY4NjhjZCJ9)
 
-Context:
+### Context:
 The IT manager tasked me with analyzing the ticketing system to uncover inefficiencies, with the goal of reducing resolution times, enhancing customer satisfaction, and improving overall service quality.
 
-Dataset:  
+### Dataset:  
 Tickets Table: Includes columns for date, ticket ID, priority, severity, issue type, agent ID, satisfaction rating, request category, and resolution time.  
 
 IT Agents Table: Contains agent ID, full name, email, and date of birth (DOB).
 
-Feature Engineering:
+### Feature Engineering:
 To enhance the analysis, I derived the following:  
 - An age column calculated as 2025 minus the year of birth from the DOB column.  
 
 - An independent date table to support robust time-series analysis.
 
-Analysis:
+### Analysis:
+
 ![Dashboard Overview](https://github.com/brenden-DS/IT-Helpdesk-Dashboard/blob/main/IT-ovw.PNG)
+![Agent Analysis](https://github.com/brenden-DS/IT-Helpdesk-Dashboard/blob/main/IT-agent.PNG)
 
 The dataset was well-structured, requiring minimal cleaning. Using DAX, I created key measures to evaluate performance, including:  
 - Total tickets  
@@ -30,7 +32,7 @@ The dataset was well-structured, requiring minimal cleaning. Using DAX, I create
 
 - Tickets resolved within the Service Level Agreement (SLA) threshold of ≤3 days
 
-Insights:  
+### Insights:  
 - Ticket Volume: A total of 97,000 tickets were analyzed, with 39,000 system-related, 29,000 login access, 20,000 software, and 10,000 hardware-related tickets.  
 
 Key Performance Indicators (KPIs):  
@@ -58,7 +60,7 @@ Trends:
 
 Agent Performance: Identified the top 5 and bottom 5 agents by satisfaction ratings and tickets handled.
 
-Recommendations:  
+### Recommendations:  
 1.Category-Specific SLAs: Implement stricter SLAs for system and hardware tickets to address prolonged resolution times, which may negatively impact satisfaction ratings.  
 
 2.Agent Training: Provide targeted training for agents handling system and hardware tickets to improve efficiency and SLA compliance.  
