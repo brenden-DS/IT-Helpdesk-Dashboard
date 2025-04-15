@@ -71,5 +71,6 @@ Agent Performance: Identified the top 5 and bottom 5 agents by satisfaction rati
 
 5.Performance Monitoring: Regularly track agent performance and provide feedback to sustain high satisfaction ratings and resolution efficiency.
 
-Conclusion:
-This analysis reveals key inefficiencies in the IT helpdesk, particularly with system and hardware tickets dragging down resolution times and satisfaction. By targeting these areas with specific SLAs & training we can significantly boost performance. 
+### Conclusion:
+
+- This analysis reveals key inefficiencies in the IT helpdesk, particularly with system and hardware tickets dragging down resolution times and satisfaction. By targeting these areas with specific SLAs & training we can significantly boost performance. 
