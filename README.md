@@ -17,6 +17,8 @@ To enhance the analysis, I derived the following:
 - An independent date table to support robust time-series analysis.
 
 Analysis:
+![Dashboard Overview](https://github.com/brenden-DS/IT-Helpdesk-Dashboard/blob/main/IT-ovw.PNG)
+
 The dataset was well-structured, requiring minimal cleaning. Using DAX, I created key measures to evaluate performance, including:  
 - Total tickets  
 
